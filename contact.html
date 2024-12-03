@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet"  href="./output.css">
+</head>
+<body class="bg-[url('https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jTXtBmw2NH7eKNYtFuCYww.png')]">
+
+    <!--side bar goes here-->
+<div class="flex">
+    <div class="hidden md:flex">
+        <div class="bg-black border-[0.5px] border-solid border-gray-400 h-screen w-[150px] text-pink-100 border-h-screen">
+            <h2 class="pt-10 font-bold text-pink-200 text-center">MY PORTFOLIO</h2><br>
+            <div class=" hover:h-auto hover:w-[120px] hover:bg-pink-300 hover:text-black cursor-pointer pl-3 font-semibold"><a href="portfolio.html">HOME</a></div><br>
+            <div class="hover:bg-pink-300 hover:text-black hover:h-auto cursor-pointer hover:w-[120px] pl-3 font-semibold"><a href="about.html">ABOUT</a></div><br>
+            <div class="hover:bg-pink-300 hover:text-black hover:h-auto cursor-pointer hover:w-[120px] pl-3 font-semibold"><a href="skills.html">SKILLS</a></div><br>
+            <div class="hover:bg-pink-300 hover:text-black hover:h-auto cursor-pointer hover:w-[120px] pl-3 font-semibold"><a href="project.html">PROJECTS</a></div><br>
+            <div class="bg-pink-300 text-black h-auto cursor-pointer w-[120px] pl-3 font-semibold"><a href="contact.html">CONTACT</a></div><br>
+        </div>
+    </div>
+    <div class="md:hidden ">
+        <div class="bg-black h-screen w-[50px] border-[0.5px] border-solid border-gray-400">
+            <a class="text-5xl text-pink-300 bg-black" href="#">&#8801;</a>
+        </div>
+    </div>
+    <!--side bar ends here-->
+
+<!--content starts here-->
+<div class="flex md:flex-row flex-col">
+<div>
+    <div>
+        <h1 class="text-[#df9898] font-extrabold text-8xl pl-3 pt-8">CONTACT</h1>
+    </div>
+    <div>
+        <div class="text-[#d1cccc] pl-3 pt-5 font-serif">
+            <h2 class="text-2xl">Connect with <a class="text-[#eb7abc]">ME!</a></h2>
+            <br>
+            <p class="text-[20px]">Email-snehagarg945@gmail.com</p>
+            <p class="text-[20px]">Phone No.-9711938708</p>
+        </div>
+        <div class="flex flex-row">
+            <a href="https://www.instagram.com/_sneha_809/"><img class="size-12 pl-3 pt-2 cursor-pointer hover:translate-x-1 hover:translate-y-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png"></a>
+            <a href="https://www.linkedin.com/in/sneha-garg-a3958a259/"><img class="size-12 pl-3 pt-2 cursor-pointer hover:translate-x-1 hover:translate-y-1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png"></a>
+            <!--<a><img class="size-12 pl-3 pt-2 cursor-pointer hover:translate-x-1 hover:translate-y-1" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png"></a> -->
+        </div>
+    </div>
+</div>
+<div class="mt-10 pl-10 md:pl-15 md:pt-[200px] ">
+    <div>
+        <p class="text-[#dfa2a2] font-serif font-bold text-lg">Feel free to Contact me by submitting the form below</p>
+    </div>
+    <br>
+    <div class="border-[1px] border-solid border-[#6e5a6c] bg-[#534e50] bg-opacity-0.2 rounded-xl">
+        <form action="https://api.web3forms.com/submit" method="POST" class=" pt-2 pb-2">
+            <input type="hidden" name="access_key" value="5d510968-b4c4-4adc-a47d-bc5cab35320d">
+            <h3 name="name" type="text" class="text-[#d1cccc] font-serif text-2xl ">Name</h3>
+            <input name="name" class="bg-[#0e0a0a] rounded-sm w-full text-[#dfa2a2] placeholder-[#dfa2a2]" type="text" placeholder="Enter Your Name">
+            <h3 name="email" type="email" class="text-[#d1cccc] font-serif text-2xl ">E-mail</h3>
+            <input name="email" class="bg-[#0e0a0a] rounded-sm w-full text-[#dfa2a2] placeholder-[#dfa2a2]" type="email" placeholder="Enter Your E-mail">
+            <h3 name="message" class="text-[#d1cccc] font-serif text-2xl ">Message</h3>
+            <textarea name="message" class="bg-[#0e0a0a] rounded-sm w-full text-[#dfa2a2] placeholder-[#dfa2a2]" placeholder="Enter Your Message"></textarea>
+            <br>
+            <div class="text-center">
+                <button type="submit" class="bg-pink-300 border-[1px] border-solid border-white cursor-pointer hover:translate-x-1 hover:translate-y-1  text-black font-serif rounded-md text-center text-lg">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+    
+</div>
+</div>
+<!--content ends here-->
+    
+
+</body>
+</html>
